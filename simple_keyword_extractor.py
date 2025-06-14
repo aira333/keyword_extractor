@@ -42,7 +42,7 @@ def get_keywords_from_api(slide_text, slide_num):
 Extract exactly {MAX_KEYWORDS} UNIQUE, IMPORTANT study keywords that:
 1. Actually appear in this specific slide text
 2. Are key concepts someone would highlight while studying  
-3. Are NOT common words (like 'python', 'language', 'program', 'code')
+3. Are NOT common words (like 'language', 'program', 'code')
 4. Are NOT duplicated in your response
 5. Focus on technical terms, specific concepts, or important details
 6. Must be words/phrases that actually exist in the slide content
